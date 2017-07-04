@@ -3,18 +3,13 @@ Created on 2017. 7. 3.
 
 @author: ko
 '''
-from sklearn.cross_validation import train_test_split, cross_val_score
+from sklearn.cross_validation import train_test_split
 from sklearn.grid_search import GridSearchCV
-from sklearn.learning_curve import learning_curve
-from sklearn.learning_curve import validation_curve
-from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 
 
